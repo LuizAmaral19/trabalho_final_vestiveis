@@ -44,5 +44,5 @@ A IMU (MPU-6050) deve ser posicionada **entre as escápulas**, logo abaixo da li
 Esse ponto é ideal porque representa bem a inclinação torácica do tronco no plano sagital, é relativamente estável e não interfere com articulações móveis como ombros e pescoço.  
 Essa posição favorece a detecção precisa de **cifose ou curvatura excessiva para frente**.
 
-
+**Obs:** Tentarei atualizar o código para ficar o melhor possível ao decorrer do tempo
 
