@@ -4,8 +4,8 @@
   Descrição:      O SCP é um projeto wearable que tem como objetivo alertar um 
                   usuário quando esse estiver com má postura, através de um buzzer
   Autor:          Luiz Henrique da Silva Amaral
-  Data:           01/07/2025
-  Versão:         1.5
+  Data:           03/07/2025
+  Versão:         2.0
   Plataforma:     Arduino IDE 2.3.6
   Contato:        luizhsamaral@gmail.com
   GitHub:         https://github.com/LuizAmaral19 
@@ -60,6 +60,9 @@
   - 14 | Measure angles with the MPU6050 accelerometer. Link: <https://www.youtube.com/watch?v=7VW_XVbtu9k>
   - 15 | Combine a gyroscope and accelerometer to measure angles - precisely. Link: <https://www.youtube.com/watch?v=5HuN9iL-zxU&t=50s>
   - How To Use Arduino's Serial Plotter. Link: <https://www.youtube.com/watch?v=WnxBNxX_WDc&t=14s>
+  - Manual-Quadcopter-Drone. Link: <https://github.com/CarbonAeronautics/Manual-Quadcopter-Drone>
+
+
 
   Histórico de versões:
   - v1.0: Primeiro release
@@ -68,7 +71,7 @@
   - v1.3: Foi implementado o uso do millis() no lugar do delay() na calibração
   - v1.4: Foi implementado uma função para calcular o erro na leitura da IMU e foi retirado o uso de millis() no lugar de delay() no acc_read()
   - v1.5: O erro na leitura do giroscópio foi consertado e o Filtro de Kalman foi implementado com sucesso aparente 
-  - v2.0: O código foi melhor organizado e explicado
+  - v2.0: O código foi melhor organizado e explicado, permitindo obter gráficos das leituras do acelerômetro, giroscópio e filtro de Kalman
 
   -----------------------------------------------------------------------------
 */
